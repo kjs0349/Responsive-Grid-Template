@@ -1,5 +1,6 @@
 # ResponsiveGridTemplate
 Grid를 이용한 반응형 구조를 만들어 보았습니다
+![ResponsiveGridTemplate3](https://user-images.githubusercontent.com/61913417/104817636-da291a00-5865-11eb-913e-4417b14d8966.gif)
 
 ### 구현 과정
 - 기본 설정을 가로 너비 500px 이하일 때 1열로 설정하였고 미디어쿼리를 사용해 500px 이상일 때 2열, 850px 이상일 때 4열로 만들었습니다.
