@@ -8,6 +8,6 @@ Grid를 이용한 반응형 구조를 만들어 보았습니다
 - 이미지를 나오게 하기 위해 padding-bottom: 60%;를 사용하였고 background-size: cover;를 통해 꽉 차게 만들고 background-position: center center;를 통해 정 가운데가 나오게끔 만들었습니다.
 - 카드 안에 있는 문자 부분에 다시 flex를 주고 수직 정렬 시킨 다음에 justify-content: space-between;으로 간격을 만들고 가운데 p 부분의 윗부분과 h1 부분의 사이를 일정하게 만들기 위해 p 태그에 따로 flex-grow: 1; 값을 주어 나머지 영역을 모두 사용하게 하여 h1 밑 부분과 p 윗 부분의 간격을 모든 카드 동일하게 만들었습니다.
 - 선택되는 효과를 좀 더 내기 위해 hover 시 position의 top 값을 -2로 변경 시켰고 box-shadow를 통해 그림자를 주었습니다.
---> 여기서 실수!
-position: relative;, top: -5px 를 .card:hover 값에 주고 .card 에 transition을 주고 왜 안되지 하는 실수를 했다.
-!! transition 은 변하는 값에 애니메이션을 주는 속성이므로 .card에는 값을 주지 않고 .card:hover에만 값을 주니 먹힐 리가 없다. 변하기 전 값을 미리 설정해 주고 변하는 값을 설정하고 변하기 전 부분에 transition을 주어야한다!
+  - 여기서 실수!
+   - position: relative;, top: -5px 를 .card:hover 값에 주고 .card 에 transition을 주고 왜 안되지 하는 실수를 했다.
+   - transition 은 변하는 값에 애니메이션을 주는 속성이므로 .card에는 값을 주지 않고 .card:hover에만 값을 주니 먹힐 리가 없다. 변하기 전 값을 미리 설정해 주고 변하는 값을 설정하고 변하기 전 부분에 transition을 주어야한다!
