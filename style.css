@@ -2,8 +2,10 @@ html {
     font-family: 'Roboto', sans-serif;
     background-color: #f5f7f8;
 }
+h1 {
+    margin: 0;
+}
 .band {
-    border: 2px solid red;
     max-width: 1240px;
     margin: 0 auto;
     width: 90%;
@@ -12,17 +14,27 @@ html {
     gap: 20px;
 }
 .card {
-    border: 1px solid blue;
     display: flex;
     flex-direction: column;
     height: 100%;
     text-decoration: none;
     color: #000;
+    border: 2px solid;
 }
 .card .thumb {
     padding-bottom: 60%;
     background-size: cover;
     background-position: center center;
+}
+.card article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 5px 10px;
+}
+.card article p {
+    flex-grow: 1;
 }
 @media screen and (min-width: 500px) {
     .band {
