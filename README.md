@@ -1,5 +1,6 @@
 # ResponsiveGridTemplate
 Grid를 이용한 반응형 구조를 만들어 보았습니다
+
 ![ResponsiveGridTemplate3](https://user-images.githubusercontent.com/61913417/104817636-da291a00-5865-11eb-913e-4417b14d8966.gif)
 
 ### 구현 과정
